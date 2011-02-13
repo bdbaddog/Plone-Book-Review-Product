@@ -1,0 +1,19 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="baddog.bookreview">
+
+  <include package="plone.app.contentmenu" />
+
+  <!-- -*- extra stuff goes here -*- -->
+  <browser:page for="..interfaces.IBookReview"
+		name="bookreview_view"
+		permission="zope2.View"
+		template="bookreview_view.pt"/>
+
+  <browser:resourceDirectory
+		name="baddog.bookreview"
+		directory="resources"/>
+  
+
+</configure>
