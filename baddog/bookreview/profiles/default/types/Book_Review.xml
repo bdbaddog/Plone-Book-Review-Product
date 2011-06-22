@@ -4,7 +4,7 @@
    i18n:domain="baddog.bookreview" xmlns:i18n="http://xml.zope.org/namespaces/i18n">
   <property name="title" i18n:translate="">Book Review</property>
   <property name="description"
-    i18n:translate="">BUsed to hold users book reviews</property>
+    i18n:translate="">Used to hold users book reviews</property>
   <property name="content_meta_type">BookReview</property>
   <property name="content_icon">document_icon.gif</property>
   <property name="product">baddog.bookreview</property>
