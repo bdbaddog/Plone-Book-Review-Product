@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<atcttool>
+ <topic_indexes>
+  <index name="bookreview_author" description="" enabled="False"
+     friendlyName="">
+   <criteria>ATBooleanCriterion</criteria>
+   <criteria>ATCurrentAuthorCriterion</criteria>
+   <criteria>ATDateRangeCriterion</criteria>
+   <criteria>ATFriendlyDateCriteria</criteria>
+   <criteria>ATListCriterion</criteria>
+   <criteria>ATPortalTypeCriterion</criteria>
+   <criteria>ATReferenceCriterion</criteria>
+   <criteria>ATSelectionCriterion</criteria>
+   <criteria>ATSimpleIntCriterion</criteria>
+   <criteria>ATSimpleStringCriterion</criteria>
+  </index>
+  <index name="bookreview_publisher" description="" enabled="False"
+     friendlyName="">
+   <criteria>ATBooleanCriterion</criteria>
+   <criteria>ATCurrentAuthorCriterion</criteria>
+   <criteria>ATDateRangeCriterion</criteria>
+   <criteria>ATFriendlyDateCriteria</criteria>
+   <criteria>ATListCriterion</criteria>
+   <criteria>ATPortalTypeCriterion</criteria>
+   <criteria>ATReferenceCriterion</criteria>
+   <criteria>ATSelectionCriterion</criteria>
+   <criteria>ATSimpleIntCriterion</criteria>
+   <criteria>ATSimpleStringCriterion</criteria>
+  </index>
+  <index name="bookreview_reviewer" description="" enabled="False"
+     friendlyName="">
+   <criteria>ATBooleanCriterion</criteria>
+   <criteria>ATCurrentAuthorCriterion</criteria>
+   <criteria>ATDateRangeCriterion</criteria>
+   <criteria>ATFriendlyDateCriteria</criteria>
+   <criteria>ATListCriterion</criteria>
+   <criteria>ATPortalTypeCriterion</criteria>
+   <criteria>ATReferenceCriterion</criteria>
+   <criteria>ATSelectionCriterion</criteria>
+   <criteria>ATSimpleIntCriterion</criteria>
+   <criteria>ATSimpleStringCriterion</criteria>
+  </index>
+ </topic_indexes>
+ <property name="image_types"/>
+ <property name="folder_types"/>
+ <property name="album_batch_size">10</property>
+ <property name="album_image_scale">thumb</property>
+ <property name="single_image_scale">thumb</property>
+</atcttool>

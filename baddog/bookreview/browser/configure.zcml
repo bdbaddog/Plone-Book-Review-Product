@@ -11,9 +11,4 @@
 		permission="zope2.View"
 		template="bookreview_view.pt"/>
 
-  <browser:resourceDirectory
-		name="baddog.bookreview"
-		directory="resources"/>
-  
-
 </configure>

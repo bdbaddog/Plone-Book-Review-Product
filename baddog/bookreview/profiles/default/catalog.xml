@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<object name="portal_catalog" meta_type="Plone Catalog Tool">
+ <index name="bookreview_author" meta_type="FieldIndex">
+  <indexed_attr value="book_author"/>
+ </index>
+ <index name="bookreview_publisher" meta_type="FieldIndex">
+  <indexed_attr value="publisher"/>
+ </index>
+ <index name="bookreview_reviewer" meta_type="FieldIndex">
+  <indexed_attr value="book_reviewer"/>
+ </index>
+</object>
